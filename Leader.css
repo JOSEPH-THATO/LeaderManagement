@@ -1,0 +1,58 @@
+body {
+    font:15px arial, helvetic,sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color:#f4f4f4;
+}
+.container{
+    width:auto;
+    margin:auto;
+    overflow:hidden;
+    padding-left:20px;
+}
+
+header {
+    background:#35424a;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:red 3px solid;
+}
+header ul {
+        padding:0px;
+        margin:0px;
+        text-decoration:none;
+    }
+    header li {
+        float:left;
+        display:inline;
+        text-decoration:none;
+        padding: 0 20px 0 20px;
+    }
+    header #breanding {
+        float:right;
+    }
+
+    header #breanding h1 {
+       margin:0px;
+
+    }
+    header nav {
+        float:right;
+        margin-bottom:10px;
+    }
+
+    #myLoginBtn {
+      margin-top: 10px;
+      margin-left: 130px;
+    }
+    footer {
+    padding:20px;
+    margin-top:auto;
+    color:white;
+    background-color:#e8491d;
+    text-align:left;
+}
+#myImage {
+  margin-left: 50%;
+}
