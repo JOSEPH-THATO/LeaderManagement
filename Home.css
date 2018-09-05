@@ -10,13 +10,6 @@ body {
     overflow:hidden;
     padding-left:20px;
 }
-.container form{
-  padding: 10px;
-}
-#Login{
-  text-align: center;
-  color: white;
-}
 header {
     background:#35424a;
     color:white;
@@ -48,20 +41,52 @@ header ul {
     header #breanding h1 {
        margin:0px;
 
-    }
-    header nav {
-        float:right;
-        margin-bottom:10px;
-    }
+  }
+  header nav {
+      float:right;
+      margin-bottom:10px;
+  }
 
-    #myLoginBtn {
-      margin-top: 10px;
-      margin-left: 130px;
-    }
-    footer {
-    padding:20px;
-    margin-top:100px;
-    color:white;
-    background-color:#e8491d;
-    text-align:left;
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  left: -200px;
+  background: #35424a;
+  transition: all 500ms linear;
+}
+#sidebar ul li{
+  list-style: none;
+  border-bottom: 1px solid #e8491d;
+  color: white;
+  padding: 15px 10px;
+}
+#sidebar ul li a{
+  color: white;
+  text-decoration:none;
+
+}
+#sidebar .toggle-btn{
+  position: absolute;;
+  left: 230px;
+  top: 20px;
+}
+#sidebar.active{
+  left: 0px;
+}
+#sidebar .toggle-btn span{
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: black;
+  margin: 5px 0;
+}
+#main-page {
+  color: white;
+  text-align: center;
+}
+#main-page p{
+  width: 50%;
+  font-size: 15px;
+  margin-left: 350px;
 }
