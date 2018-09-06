@@ -2,7 +2,6 @@ body {
     font:15px arial, helvetic,sans-serif;
     padding:0px;
     margin:0px;
-    background-image: url("images.jpeg");
 }
 .container{
     width:auto;
@@ -58,18 +57,22 @@ header ul {
 #ProjectInput{
 	padding:10px 0px;
 	width:100%;
-  text-align: left;
-  color: white;
+  text-align: center;
+  color: black;
 }
 .container form{
   padding: 10px;
+}
+#Enginner1{
+  text-align: center;
+  color: black;
 }
 input[type="text"]{
 	outline:none;
 	padding:10px;
 	width:300px;
 	border-radius: 3px;
-	border:1px solid #eee;
+	border:1px solid #b70101;
 	margin:20px auto;
 }
 input[type="submit"]{
