@@ -49,7 +49,7 @@ header ul {
 #sidebar {
   position: fixed;
   width: 200px;
-  height: 100%;
+  height: 70%;
   left: -200px;
   background: #35424a;
   transition: all 500ms linear;
